@@ -3,12 +3,7 @@
 
 use core::panic::PanicInfo;
 
-#[panic_handler]
-fn panic(_info: &PanicInfo) -> ! {
-    loop {}
-}
-
-static HELLO: &[u8] = b"If this works, you will see this.";
+static HELLO: &[u8] = b"If you see this, it works.";
 
 #[no_mangle]
 pub extern "C" fn _start() -> ! {
@@ -21,5 +16,10 @@ pub extern "C" fn _start() -> ! {
         }
     }
 
+    loop {}
+}
+
+#[panic_handler]
+fn panic(_info: &PanicInfo) -> ! {
     loop {}
 }
