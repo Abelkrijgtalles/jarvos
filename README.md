@@ -6,7 +6,7 @@ Build with:
 
 And then run it with (using QEMU):
 
-`qemu-system-x86_64 -drive format=raw,file=target/x86_64-os/debug/bootimage-os.bin`
+`qemu-system-x86_64 -drive format=raw,file=target/x86_64-rusty-os/debug/bootimage-rusty-os.bin`
 
 Setup:
 
