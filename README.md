@@ -6,7 +6,7 @@ Build with:
 
 And then run it with (using QEMU):
 
-`qemu-system-x86_64 -drive format=raw,file=target/x86_64-rusty-os/debug/bootimage-rusty-os.bin`
+`cargo run`
 
 To convert it to a Virtualbox Machine, run:
 
