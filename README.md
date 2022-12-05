@@ -1,5 +1,7 @@
 # Rusty OS
 
+#### An OS fully written in Rust.
+
 Build with:
 
 `cargo bootimage`
