@@ -21,6 +21,8 @@ Setup:
 
 `rustup component add llvm-tools-preview`
 
+`rustup component add rust-src --toolchain {current toolchain}`
+
 Cool trick (only able to do on Windows):
 
 If you flash it with BalenaEtcher (idk if it works with other flash programs), you can also use it as a storage device.
