@@ -26,7 +26,7 @@ pub extern "C" fn _start() -> ! {
 #[panic_handler]
 fn panic(info: &PanicInfo) -> ! {
     println!(
-        "Something bad happend:\n{}\nYou might need to restart your pc in order to fix the issue.",
+        "Something bad happend:\n{}\nRestarting your pc might help.",
         info
     );
 
