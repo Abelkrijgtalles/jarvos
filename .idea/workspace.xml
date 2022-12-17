@@ -7,7 +7,10 @@
     <cargoProject FILE="$PROJECT_DIR$/Cargo.toml" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d0aeaa54-5a32-4f83-8267-c3a8aecfdcef" name="Changes" comment="some README.md updates" />
+    <list default="true" id="d0aeaa54-5a32-4f83-8267-c3a8aecfdcef" name="Changes" comment="I didn't want to lie">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/vga_buffer.rs" beforeDir="false" afterPath="$PROJECT_DIR$/src/vga_buffer.rs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -131,7 +134,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670261778100</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="I didn't want to lie">
+      <created>1670354485360</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1670354485360</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -152,7 +162,8 @@
     <MESSAGE value="Pushing for issue on blog os" />
     <MESSAGE value="Maybe it works with edition 2021" />
     <MESSAGE value="some README.md updates" />
-    <option name="LAST_COMMIT_MESSAGE" value="some README.md updates" />
+    <MESSAGE value="I didn't want to lie" />
+    <option name="LAST_COMMIT_MESSAGE" value="I didn't want to lie" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
