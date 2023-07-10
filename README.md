@@ -4,7 +4,7 @@
 
 Build with:
 
-`cargo bootimage`
+`cargo build --target x86_64-rusty_os.json -Z build-std=core,compiler_builtins`
 
 And then run it with (using QEMU):
 
