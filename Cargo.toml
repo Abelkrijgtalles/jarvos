@@ -2,6 +2,7 @@
 name = "rusty_os"
 version = "0.1.0"
 edition = "2021"
+authors = ["Abel van Hulst <info@abelkrijgtalles.nl>", "The Github community: https://github.com/Abelkrijgtalles/rusty-os/graphs/contributors"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
