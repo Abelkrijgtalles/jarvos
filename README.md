@@ -4,7 +4,7 @@
 
 Build with:
 
-`cargo build -Z build-std=core,compiler_builtins -Z build-std-features=compiler-builtins-mem`
+`cargo bootimage -Z build-std=core,compiler_builtins -Z build-std-features=compiler-builtins-mem`
 
 And then run it with (using QEMU):
 
