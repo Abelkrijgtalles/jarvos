@@ -8,6 +8,7 @@ authors = ["Abel van Hulst <info@abelkrijgtalles.nl>", "The Github community: ht
 
 [dependencies]
 bootloader = "0.9.8"
+volatile = "0.2.6"
 
 [profile.dev]
 panic = "abort"

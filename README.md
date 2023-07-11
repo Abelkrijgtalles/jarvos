@@ -12,8 +12,8 @@ And then run it with (using QEMU):
 
 To convert it to a Virtualbox Machine, run:
 
-`dd if=target/x86_64-rusty-os/debug/bootimage-rusty-os.bin of=rusty-os.bin bs=1M conv=sync` and then
-`VBoxManage convertfromraw rusty-os.bin rusty-os.vdi --format VDI`
+`dd if=target/x86_64-rusty_os/debug/bootimage-rusty_os.bin of=rusty_os.bin bs=1M conv=sync` and then
+`VBoxManage convertfromraw rusty_os.bin rusty_os.vdi --format VDI`
 
 Setup:
 
