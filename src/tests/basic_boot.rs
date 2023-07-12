@@ -5,31 +5,25 @@
 #![reexport_test_harness_main = "test_main"]
 
 use core::panic::PanicInfo;
+use jarvos::println;
 
-mod vga_buffer;
-
-#[no_mangle]
+#[no_mangle] // don't mangle the name of this function
 pub extern "C" fn _start() -> ! {
-    println!(
-        "This is a kind of native println! but also not! 420/69: {}",
-        420.0 / 69.0
-    );
-
-    #[cfg(test)]
     test_main();
 
     loop {}
 }
 
-#[cfg(not(test))]
-#[panic_handler]
-fn panic(info: &PanicInfo) -> ! {
-    println!("{}. Rebooting your pc may help.", info);
-    loop {}
+fn test_runner(tests: &[&dyn Fn()]) {
+    unimplemented!();
 }
 
-#[cfg(test)]
 #[panic_handler]
 fn panic(info: &PanicInfo) -> ! {
     jarvos::test_panic_handler(info)
+}
+
+#[test_case]
+fn test_println() {
+    println("Hello world!");
 }
