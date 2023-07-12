@@ -1,4 +1,4 @@
-# Rusty OS
+# JarvOS
 
 #### An OS fully written in Rust.
 
@@ -12,8 +12,8 @@ And then run it with (using QEMU):
 
 To convert it to a Virtualbox Machine, run:
 
-`dd if=target/x86_64-rusty_os/debug/bootimage-rusty_os.bin of=rusty_os.bin bs=1M conv=sync` and then
-`VBoxManage convertfromraw rusty_os.bin rusty_os.vdi --format VDI`
+`dd if=target/x86_64-jarvos/debug/bootimage-jarvos.bin of=jarvos.bin bs=1M conv=sync` and then
+`VBoxManage convertfromraw jarvos.bin jarvos.vdi --format VDI`
 
 Setup:
 

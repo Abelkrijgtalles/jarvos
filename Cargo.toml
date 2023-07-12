@@ -1,8 +1,8 @@
 [package]
-name = "rusty_os"
+name = "jarvos"
 version = "0.1.0"
 edition = "2021"
-authors = ["Abel van Hulst <info@abelkrijgtalles.nl>", "The Github community: https://github.com/Abelkrijgtalles/rusty-os/graphs/contributors"]
+authors = ["Abel van Hulst <info@abelkrijgtalles.nl>", "The Github community: https://github.com/Abelkrijgtalles/jarvos/graphs/contributors"]
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
@@ -18,7 +18,7 @@ version = "1.4.0"
 features = ["spin_no_std"]
 
 [build]
-target = "x86_64-rusty_os.json"
+target = "x86_64-jarvos.json"
 
 [package.metadata.bootimage]
 test-args = ["-device", "isa-debug-exit,iobase=0xf4,iosize=0x04", "-serial", "stdio",
